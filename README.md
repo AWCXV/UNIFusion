@@ -1,7 +1,7 @@
 # UNIFusion
-This is the code of the paper titled as "UNIFusion: A Lightweight Unified Image Fusion Network" which is published in **IEEE Transactions on Instrumentation and Measurement 2021**.
+This is the code of the paper titled as "UNIFusion: A Lightweight Unified Image Fusion Network".
 
-# UNIFusion
+# Citation
 If this work is helpful to you, please cite it as:
 ```
 @article{cheng2021unifusion,
