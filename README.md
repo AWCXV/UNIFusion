@@ -1,6 +1,9 @@
 # UNIFusion
 This is the code of the paper titled as "UNIFusion: A Lightweight Unified Image Fusion Network".
 
+## Updates:
+**2022-4-28:** the input base and detail layers' images are available at the "data" floder
+
 # Citation
 If this work is helpful to you, please cite it as:
 ```
