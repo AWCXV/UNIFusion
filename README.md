@@ -3,7 +3,8 @@ This is the code of the paper titled as "UNIFusion: A Lightweight Unified Image 
 
 ## Updates:
 **2022-4-28:** the input images (base and detail layers) are available at the folder of "/data".
-**2022-4-29**  the matlab code for generating the base and detail layers are available at the folder of "matlab_code_for_creating_base_and_detail_layers"
+
+**2022-4-29**  the matlab code for generating the base and detail layers are available at the folder of "matlab_code_for_creating_base_and_detail_layers".
 
 # Citation
 If this work is helpful to you, please cite it as:
