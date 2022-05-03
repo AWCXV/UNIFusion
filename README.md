@@ -1,6 +1,14 @@
 # UNIFusion
 This is the code of the paper titled as "UNIFusion: A Lightweight Unified Image Fusion Network".
 
+## Usage
+Download all these files, run the "test_imageTNO.py" by using the following code:
+```
+python test_imageTNO.py
+```
+
+You can find all the required parameter settings in the "args_fusion.py" file.
+
 ## Environment
 Python 3.7.3
 
