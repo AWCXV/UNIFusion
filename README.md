@@ -2,12 +2,16 @@
 This is the code of the paper titled as "UNIFusion: A Lightweight Unified Image Fusion Network".
 
 ## Usage
-Download all these files, run the "test_imageTNO.py" by using the following code:
+1. Download all these files (folder "data" is not mandatory, you can use your own testing data).
+
+### For infrared and visible image fusion task:
+1. Change the paths in "test_imageTNO.py" to run our model on your own infrared and visible image pairs.
+2. run the "test_imageTNO.py" by using the following code:
 ```
 python test_imageTNO.py
 ```
 
-You can find all the required parameter settings in the "args_fusion.py" file.
+You can find all the other parameter settings in the "args_fusion.py" file.
 
 ## Environment
 Python 3.7.3
