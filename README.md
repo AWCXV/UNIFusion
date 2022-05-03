@@ -1,10 +1,17 @@
 # UNIFusion
 This is the code of the paper titled as "UNIFusion: A Lightweight Unified Image Fusion Network".
 
+## Environment
+Python 3.7.3
+
 ## Updates:
+⚡【2022-5-3】 the testing code for the TNO dataset and related parameter setting config files are available now, you can customize the paths in "test_imageTNO.py" to test your own images.
+
+⚡【2022-4-29】 the matlab code for generating the base and detail layers are available at the folder of "matlab_code_for_creating_base_and_detail_layers". Please customize the paths information in the "main.m" file to obtain the expected images.
+
 ⚡【2022-4-28】 the input images (base and detail layers) are available at the folder of "/data".
 
-⚡【2022-4-29】  the matlab code for generating the base and detail layers are available at the folder of "matlab_code_for_creating_base_and_detail_layers". Please customize the paths information in the "main.m" file to obtain the expected images.
+
 
 # Citation
 If this work is helpful to you, please cite it as:
