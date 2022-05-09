@@ -35,7 +35,7 @@ def _generate_fusion_image(model, strategy_type, img1, img2):
     img_fusion = model.decoder(f);
     return img_fusion[0]
 
-#input order shold follow the order of "irBase,viBase,irDetail,viDetail" far, near,  far, near 
+#input order should follow the order of "irBase,viBase,irDetail,viDetail" far, near,  far, near 
 def _generate_fusion_mf(model,imgBase1,imgBase2,imgDetail1,imgDetail2):
     imgGradDetail1 = gradient(imgDetail1);
     imgGradDetail2 = gradient(imgDetail2);
