@@ -23,7 +23,8 @@ Python 3.7.3
 
 ⚡【2022-4-28】 the input images (base and detail layers) are available at the folder of "/data".
 
-
+## Acknowledgement
+Most code of this implementation is based on the DenseFuse: https://github.com/hli1221/densefuse-pytorch
 
 # Citation
 If this work is helpful to you, please cite it as:
