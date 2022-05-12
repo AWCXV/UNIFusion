@@ -11,12 +11,18 @@ This is the code of the paper titled as "UNIFusion: A Lightweight Unified Image 
 python test_imageTNO.py
 ```
 
+### For multi-focus image fusion task:
+1. Change the paths in "test_imageMF.py" to run our model on your own near-focused and far-focused image pairs.
+2. run the "test_imageMF.py", you can customize the k1 and k2 values in the file "fusion_strategy.py" (Marked with corresponding notes).
+
 You can find all the other parameter settings in the "args_fusion.py" file.
 
 ## Environment
 Python 3.7.3
 
 ## Updates:
+⚡【2022-5-12】 The "fusion_strategy.py" is available now.
+
 ⚡【2022-5-12】 the testing code for the Lytro dataset is available now, you can customize the paths in "test_imageMF.py" to test your own images.
 
 ⚡【2022-5-3】 the testing code for the TNO dataset and related parameter setting config files are available now, you can customize the paths in "test_imageTNO.py" to test your own images.
