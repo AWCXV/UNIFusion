@@ -17,6 +17,8 @@ You can find all the other parameter settings in the "args_fusion.py" file.
 Python 3.7.3
 
 ## Updates:
+⚡【2022-5-12】 the testing code for the Lytro dataset is available now, you can customize the paths in "test_imageMF.py" to test your own images.
+
 ⚡【2022-5-3】 the testing code for the TNO dataset and related parameter setting config files are available now, you can customize the paths in "test_imageTNO.py" to test your own images.
 
 ⚡【2022-4-29】 the matlab code for generating the base and detail layers are available at the folder of "matlab_code_for_creating_base_and_detail_layers". Please customize the paths information in the "main.m" file to obtain the expected images.
