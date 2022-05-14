@@ -4,7 +4,8 @@ This is the code of the paper titled as "UNIFusion: A Lightweight Unified Image 
 ## Usage
 1. Download all these files (folder "data" is not mandatory, you can use your own testing data).
 
-### For infrared and visible image fusion task:
+### For IR/VIS, Multi-Exposure and Medical image fusion tasks:
+*Eg*. Infrared and visible image fusion task
 1. Change the paths in "test_imageTNO.py" to run our model on your own infrared and visible image pairs.
 2. run the "test_imageTNO.py" by using the following code:
 ```
@@ -21,6 +22,8 @@ You can find all the other parameter settings in the "args_fusion.py" file.
 Python 3.7.3
 
 ## Updates:
+⚡【2022-5-14】 the testing codes for the Multi-Exposure and Medical image fusion tasks are available now.
+
 ⚡【2022-5-12】 The "fusion_strategy.py" is available now.
 
 ⚡【2022-5-12】 the testing code for the Lytro dataset is available now, you can customize the paths in "test_imageMF.py" to test your own images.
