@@ -2,10 +2,11 @@
 This is the code of the paper titled as "UNIFusion: A Lightweight Unified Image Fusion Network".
 
 ## Usage
-1. Download all these files (folder "data" is not mandatory, you can use your own testing data).
+- Download all these files (folder "data" is not mandatory, you can use your own testing data).
+- If you want to test your own images on our model, "matlab_code_for_creating_base_and_detail_layers/main.m" are ready for you to generate the base and detail layers.
 
 ### For IR/VIS, Multi-Exposure and Medical image fusion tasks:
-*Eg*. Infrared and visible image fusion task
+*eg*. Infrared and visible image fusion task
 1. Change the paths in "test_imageTNO.py" to run our model on your own infrared and visible image pairs.
 2. run the "test_imageTNO.py" by using the following code:
 ```
