@@ -13,7 +13,7 @@ python test_imageTNO.py
 
 ### For multi-focus image fusion task:
 1. Change the paths in "test_imageMF.py" to run our model on your own near-focused and far-focused image pairs.
-2. run the "test_imageMF.py", you can customize the k1 and k2 values in the file "fusion_strategy.py" (Marked with corresponding notes).
+2. run the "test_imageMF.py", you can customize the *k1* and *k2* values in the file "fusion_strategy.py" (Marked with corresponding notes).
 
 You can find all the other parameter settings in the "args_fusion.py" file.
 
