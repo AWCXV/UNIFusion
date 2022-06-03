@@ -20,7 +20,9 @@ python test_imageTNO.py
 You can find all the other parameter settings in the "args_fusion.py" file.
 
 ## Environment
-Python 3.7.3
+- Python 3.7.3
+- torch 1.7.1
+- scipy 1.2.0
 
 ## Updates:
 ⚡【2022-5-14】 the testing codes for the Multi-Exposure and Medical image fusion tasks are available now.
