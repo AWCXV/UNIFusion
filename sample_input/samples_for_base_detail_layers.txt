@@ -1,0 +1,1 @@
+For RGB images, we only present their Y channel or I channel.
