@@ -105,7 +105,7 @@ def run_demo(model, irBase_path,irDetail_path, visBase_path, visDetail_path, out
     #finalFuseResult
     fusedFinalResult = fusedDetail + fusedBase;
     
-    file_name = 'fuse'+str(index) + '.png'
+    file_name = 'fuseIRVIS'+str(index) + '.png'
     output_path = output_path_root + file_name
     
     imsave(output_path,fusedFinalResult);
@@ -121,7 +121,7 @@ def main():
 
     BS = strategy_type_list[1];
     DS = strategy_type_list[3];
-    output_path = './outputs/TNO_'+BS+'_'+DS+'/';
+    output_path = './outputs/';
 
     if os.path.exists(output_path) is False:
         os.mkdir(output_path)
@@ -138,12 +138,12 @@ def main():
 
     with torch.no_grad():
         model = load_model(model_path, in_c, out_c)
-        for i in range(21): 
+        for i in range(1): 
             index = i + 1
-            irBase_path = test_path + 'IR/IRBase' + str(index) + '.png'
-            irDetail_path = test_path + 'IR/IRDetail' + str(index) + '.png'
-            visBase_path = test_path + 'VIS/VISBase' + str(index) + '.png'
-            visDetail_path = test_path + 'VIS/VISDetail' + str(index) + '.png'
+            irBase_path = test_path + 'irvis_IRBase.png'
+            irDetail_path = test_path + 'irvis_IRDetail.png'
+            visBase_path = test_path + 'irvis_VISBase.png'
+            visDetail_path = test_path + 'irvis_VISDetail.png'
             run_demo(model,irBase_path,irDetail_path, visBase_path, visDetail_path, output_path, index, BS, DS, mode)
     print('Done......')
 
