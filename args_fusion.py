@@ -24,7 +24,7 @@ class args():
     resume_auto_en = None
     resume_auto_de = None
     resume_auto_fn = None
-    device = 3;
+    device = 0;
 
     model_path_gray = "./coco_pretrained.model"
     model_path_rgb = "./coco_pretrained.model"
