@@ -2,7 +2,7 @@
 This is the code of the paper titled as "UNIFusion: A Lightweight Unified Image Fusion Network".
 
 ## Usage
-- Download all these files (folder "data" is not mandatory, you can use your own testing data).
+- Download all these files.
 - If you want to test your own images on our model, "matlab_code_for_creating_base_and_detail_layers/main.m" is ready for you to generate the base and detail layers.
 
 ### For IR/VIS, Multi-Exposure and Medical image fusion tasks:
