@@ -107,7 +107,7 @@ def run_demo(model, irBase_path,irDetail_path, visBase_path, visDetail_path, out
     fusedFinalResult = fusedDetail + fusedBase;
     
     ############################ multi outputs ##############################################
-    file_name = 'fuse'+str(index) + '.png'
+    file_name = 'fuseME'+str(index) + '.png'
     output_path = output_path_root + file_name
     
     imsave(output_path,fusedFinalResult);
@@ -116,14 +116,14 @@ def run_demo(model, irBase_path,irDetail_path, visBase_path, visDetail_path, out
 
 def main():
 
-    test_path = "imagesMeanME/"
+    test_path = "sample_input/"
 
     fusion_type = 'auto'  # auto, fusion_layer, fusion_all
     strategy_type_list = ['AVG', 'L1','SC','MAX','AGL1']  # addition, attention_weight, attention_enhance, adain_fusion, channel_fusion, saliency_mask
 
     BS = strategy_type_list[0];
     DS = strategy_type_list[0];
-    output_path = './outputs/ME/'+BS+'_'+DS+'/';
+    output_path = './outputs/';
 
     if os.path.exists(output_path) is False:
         os.mkdir(output_path)
@@ -143,12 +143,12 @@ def main():
         print('SSIM weight ----- ' + args.ssim_path[2])
         ssim_weight_str = args.ssim_path[2]
         model = load_model(model_path, in_c, out_c)
-        for i in range(19): 
+        for i in range(1): 
             index = i + 1
-            irBase_path = test_path + 'IR/IRBase' + str(index) + '.png'
-            irDetail_path = test_path + 'IR/IRDetail' + str(index) + '.png'
-            visBase_path = test_path + 'VIS/VISBase' + str(index) + '.png'
-            visDetail_path = test_path + 'VIS/VISDetail' + str(index) + '.png'
+            irBase_path = test_path + 'ME_IRBase.png'
+            irDetail_path = test_path + 'ME_IRDetail.png'
+            visBase_path = test_path + 'ME_VISBase.png'
+            visDetail_path = test_path + 'ME_VISDetail.png'
             run_demo(model,irBase_path,irDetail_path, visBase_path, visDetail_path, output_path, index, BS, DS, mode)
     print('Done......')
 
