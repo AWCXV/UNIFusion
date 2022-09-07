@@ -4,7 +4,7 @@ class args():
     # training args
     epochs = 2 #"number of training epochs, default is 2"
     batch_size = 4 #"batch size for training, default is 4"
-    dataset = "/data/Disk_A/chunyang/imagefusion-nestfuse/train2014/"
+    dataset = "./train2014/"
     HEIGHT = 256
     WIDTH = 256
 
