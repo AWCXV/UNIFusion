@@ -114,7 +114,7 @@ def run_demo(model, irBase_path,irDetail_path, visBase_path, visDetail_path, out
 
 def main():
 
-    test_path = "imagesMeanTNO/"
+    test_path = "sample_input/"
 
     fusion_type = 'auto'  # auto, fusion_layer, fusion_all
     strategy_type_list = ['AVG', 'L1','SC','MAX','AGL1']  # addition, attention_weight, attention_enhance, adain_fusion, channel_fusion, saliency_mask
