@@ -5,19 +5,17 @@ This is the code of the paper titled as "UNIFusion: A Lightweight Unified Image 
 - Download all these files.
 - If you want to test your own images on our model, "matlab_code_for_creating_base_and_detail_layers/main.m" is ready for you to generate the base and detail layers.
 
-### For IR/VIS, Multi-Exposure and Medical image fusion tasks:
-*eg*. Infrared and visible image fusion task
-1. Change the paths in "test_imageTNO.py" to run our model on your own infrared and visible image pairs.
-2. run the "test_imageTNO.py" by using the following code:
+All the necessary parameter settings can be found at "args_fusion.py".
+
+### Testing
+We provide a series of testing files for different fusion tasks.
+
+*e.g.* Infrared and visible image fusion task
+Run the following code:
 ```
 python test_imageTNO.py
 ```
-
-### For multi-focus image fusion task:
-1. Change the paths in "test_imageMF.py" to run our model on your own near-focused and far-focused image pairs.
-2. run the "test_imageMF.py", you can customize the *k1* and *k2* values in the file "fusion_strategy.py" (Marked with corresponding notes).
-
-You can find all the other parameter settings in the "args_fusion.py" file.
+The fusion results will be presented at the "outputs" folder.
 
 ## Training
 Training dataset can be found at this website: https://pjreddie.com/projects/coco-mirror/
